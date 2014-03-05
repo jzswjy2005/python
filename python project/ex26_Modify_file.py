@@ -76,19 +76,19 @@ print "We can also do that this way:"
 print "We'd have %d beans, %d jars, and %d crates." % secret_formula(start_point)   #第七处错误：缺少"）"及参数名称输写有误,crabapples修改为"crates"
 
 #第九处错误：缺少导入函数语句
-#from ex28 import *
-import ex28
+
+import ex25_Practice_Practice
 sentence = "All god\tthings come to those who weight."
 
-words = ex28.break_words(sentence)
-sorted_words = ex28.sort_words(words)
+words = ex25_Practice_Practice.break_words(sentence)
+sorted_words = ex25_Practice_Practice.sort_words(words)
 
 print_first_word(words)
 print_last_word(words)
 print_first_word(sorted_words)  #第十处错误：多"."符号，删除
 print_last_word(sorted_words)
 
-sorted_words = ex28.sort_sentence(sentence)
+sorted_words = ex25_Practice_Practice.sort_sentence(sentence)
 print  sorted_words    #第十一处错误：prin修改为print 
 
 print_first_and_last(sentence)   #第十二处错误:函数名称输写有误，irst修改为first

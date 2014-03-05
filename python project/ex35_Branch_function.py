@@ -1,3 +1,4 @@
+# -*- coding:utf-8 -*-
 from sys import exit	#调用系统exit函数
 #定义函数
 def gold_room():

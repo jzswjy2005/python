@@ -1,5 +1,5 @@
 # -*- coding:utf-8 -*-
-#output show
+#输出语句
 print "Let's practice everything."
 print 'You\'d need to know \'bout escapes with \\ that do \n newlines and \t tabs.'
 #定义变量并赋值
@@ -34,9 +34,8 @@ print "We'd hava %d beans,%d jars,and %d crates." % (beans,jars,crates)
 #定义变量
 start_point = start_point / 10
 #调用函数
-#beans,jars,crates = secret_formula(start_point) 自己添加的语句
 print "We can also do that this way:"
-print "We'd have %d beans,%d jars,and %d crates." % (beans,jars,crates)
+print "We'd have %d beans,%d jars,and %d crates." % secret_formula(start_point)
 
 
 

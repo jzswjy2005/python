@@ -9,7 +9,7 @@ print "Roosters", 100 - 25 * 3 % 4
 print "Now I will count the eggs:"
 #加减取余除结果为7
 print 3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6
-#语句输入
+#语句输出
 print  "Is it true that 3 + 2 < 5 - 7?"
 #输出这个语句的判断结果：假false
 print 3 + 2 < 5 - 7

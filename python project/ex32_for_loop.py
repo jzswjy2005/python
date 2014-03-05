@@ -26,7 +26,7 @@ elements = []
 for i in range(0,6):
 	print "Adding %d to the list." % i 
 	# append is a function that lists understand
-	elements.append(i)
+	elements.append(i)    #使用append方法追求元素
 
 # now we can print them out too
 for i in elements:

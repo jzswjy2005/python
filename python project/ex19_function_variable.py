@@ -1,3 +1,4 @@
+# -*- coding:utf-8 -*-
 #定义一个函数
 def cheese_and_crackers(cheese_count,boxes_of_crackers):
 	print "You have %d cheeses!" % cheese_count

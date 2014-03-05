@@ -14,9 +14,11 @@ in_file = open(from_file)
 indata = in_file.read()
 #读取文件
 #一段英文解释
-#print "The input file is %d bytes long" % len(indata)
-#print "Ready, hit RETURN to confinue, CTRL-C TO abort."
-#raw_input()#获取键盘的输入值
+print "The input file is %d bytes long" % len(indata)
+
+print "Does the output file exist?%r" % exists(to_file)
+print "Ready, hit RETURN to confinue, CTRL-C TO abort."
+raw_input()#获取键盘的输入值
 #使用变量来存储文件的内容
 #以写的方式打开文件
 out_file = open(to_file,'w')
